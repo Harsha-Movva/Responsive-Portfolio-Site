@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("customfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply globally */
+body {
+  font-family: "MyCustomFont", Arial, sans-serif;
+}
